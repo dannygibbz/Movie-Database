@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Movie Search</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script
+      src="https://unpkg.com/react@16/umd/react.development.js"
+      crossorigin
+    ></script>
+    <script
+      src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"
+      crossorigin
+    ></script>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+  
+  </head>
+  <body>
+    <div>
+      <img src="Screen Shot 2020-02-17 at 6.22.21 PM.png" style="width:100%" />
+    </div>
+    <div class="container">
+      <div>
+        <h3>Search movies here!</h3>
+        <br />
+        <br />
+        <input id="movie-input" />
+
+        <button type="button" class="btn btn-secondary" id="search">
+          Search
+        </button>
+      </div>
+      <div>
+        <h4>Results</h4>
+        <div id="results">
+          <img id="poster" />
+          <p id="title"></p>
+          <p id="year"></p>
+          <p id="cast"></p>
+          <p id="rating"></p>
+          <p id="plot"></p>
+        </div>
+      </div>
+    </div>
+    <br />
+    <br />
+    <div class="container">
+      <div>
+        <h3>Search TV here!</h3>
+        <br />
+        <br />
+        <input id="tv-input" />
+
+        <button id="tv-search">Search</button>
+      </div>
+      <div>
+        <h4>Results</h4>
+        <div id="tv-results">
+          <img id="tv-poster" />
+
+          <p id="tv-year"></p>
+          <p id="tv-cast"></p>
+          <p id="tv-rating"></p>
+          <p id="tv-plot"></p>
+        </div>
+      </div>
+      <div id="seasonSearch" style="display: none;">
+        <h4>Looking for a particular season?</h4>
+        <input id="season-input" placeholder="search a season" />
+        <button id="season-search">Search</button>
+        <br />
+        <p id="season-number"></p>
+        <p id="tv-episodes"></p>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/dayjs"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>

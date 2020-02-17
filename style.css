@@ -1,0 +1,12 @@
+body {
+  /* max-width: 400px;
+  margin: auto; */
+  background-image: url("vintage-wallpaper.png");
+  color: lime
+}
+
+.container {
+    margin: auto;
+    width: 50%;
+    font-family: 'Press Start 2P', cursive;
+}
