@@ -48,7 +48,7 @@ $("#tv-search").on("click", function(event) {
  $("#seasonSearch").show()
 
   let tvURL =
-    "http://www.omdbapi.com/?t=" +
+    "https://www.omdbapi.com/?t=" +
     show +
     "&Season=" +
     seasonNumber +
@@ -99,7 +99,7 @@ $("#season-search").on("click", function(event) {
   let seasonNumber = $("#season-input").val()
 
   let tvURL =
-    "http://www.omdbapi.com/?t=" +
+    "https://www.omdbapi.com/?t=" +
     show +
     "&Season=" +
     seasonNumber +
