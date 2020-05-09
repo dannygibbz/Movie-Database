@@ -2,11 +2,17 @@ body {
   /* max-width: 400px;
   margin: auto; */
   background-image: url("vintage-wallpaper.png");
-  color: lime
+  color: lime;
 }
 
 .container {
-    
-    font-family: 'Press Start 2P', cursive;
-    font-size: 2.5vw;
+  font-family: "Press Start 2P", cursive;
+  font-size: 2.5vw;
+}
+
+#siteTitle {
+  margin: auto;
+
+  font-family: "Press Start 2P", cursive;
+  font-size: 3.5vw;
 }
